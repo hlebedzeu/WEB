@@ -1,0 +1,65 @@
+.mainTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+.mainTable th {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    margin: 8px;
+  }
+
+.mainTable td {
+    border-left: 1px solid black;
+    height: 225px
+  }
+
+.cellRed {
+    background-color: red;
+}
+
+th {
+    height: 30px
+}
+
+.nestedTable {
+    width: 100%
+}
+
+.nestedTable td {
+    border: 3px solid white;
+    height: 25px
+}
+
+.cellOrange {
+    background-color: orangered
+}
+
+.cellGreen {
+    background-color: green;
+}
+
+.cellBrown {
+    background-color: brown;
+}
+
+.cellBlue {
+    background-color: blue;
+}
+
+.cellBlueViolet {
+    background-color: blueviolet
+}
+
+#lastRow {
+    border-bottom: 1px solid black;
+    vertical-align: top;
+}
+
+.noBorder {
+    border: 0px !important;
+}
